@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>星空体育 · 稳定入口与产品说明</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #f5f1eb;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;
+      color: #2b2a28;
+      line-height: 1.6;
+      padding: 2rem 1.5rem 3rem;
+    }
+
+    .page {
+      max-width: 780px;
+      margin: 0 auto;
+      background: #fcfaf7;
+      padding: 2.5rem 2rem 3.5rem;
+      border-radius: 24px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.02), 0 2px 4px rgba(0, 0, 0, 0.02);
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 550;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.4rem;
+      color: #1f1e1c;
+    }
+
+    .hero-sub {
+      font-size: 1.05rem;
+      color: #5c5a56;
+      border-left: 4px solid #b7a48b;
+      padding-left: 1rem;
+      margin-bottom: 2.5rem;
+      line-height: 1.5;
+    }
+
+    .section-title {
+      font-size: 1.3rem;
+      font-weight: 480;
+      margin-top: 2.6rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 1px solid #e2dbd3;
+      color: #2c2a27;
+    }
+
+    .section-title:first-of-type {
+      margin-top: 0;
+    }
+
+    p {
+      margin-bottom: 1.15rem;
+    }
+
+    a {
+      color: #6a4f3a;
+      text-decoration: none;
+      border-bottom: 1px solid #cbb9a6;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    a:hover {
+      color: #3d2f24;
+      border-bottom-color: #6a4f3a;
+    }
+
+    .quote-block {
+      background: #f4efe8;
+      border-left: 4px solid #b7a48b;
+      padding: 1.2rem 1.4rem;
+      margin: 1.8rem 0;
+      border-radius: 0 12px 12px 0;
+      font-size: 0.95rem;
+      color: #3d3a36;
+    }
+
+    .quote-block p:last-child {
+      margin-bottom: 0;
+    }
+
+    .feature-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.2rem 2rem;
+      margin: 1.2rem 0 1rem;
+    }
+
+    .feature-item {
+      flex: 1 1 200px;
+      background: #f8f4ef;
+      padding: 1rem 1.1rem;
+      border-radius: 12px;
+      border: 1px solid #e6ddd4;
+    }
+
+    .feature-item strong {
+      display: block;
+      font-weight: 520;
+      font-size: 1.02rem;
+      margin-bottom: 0.2rem;
+      color: #2f2b27;
+    }
+
+    .feature-item span {
+      font-size: 0.92rem;
+      color: #55524d;
+    }
+
+    .faq-list {
+      margin: 1.4rem 0;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #ece5dd;
+      padding: 0.9rem 0;
+    }
+
+    .faq-item:last-child {
+      border-bottom: none;
+    }
+
+    .faq-q {
+      font-weight: 500;
+      margin-bottom: 0.2rem;
+      font-size: 1rem;
+    }
+
+    .faq-a {
+      font-size: 0.93rem;
+      color: #4e4b47;
+      padding-left: 0.2rem;
+    }
+
+    .footer-links {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #e2dbd3;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem 1.4rem;
+      font-size: 0.9rem;
+    }
+
+    .footer-links a {
+      border-bottom: none;
+      color: #5f5244;
+    }
+
+    .footer-links a:hover {
+      color: #2c231e;
+      text-decoration: underline;
+    }
+
+    .footer-note {
+      margin-top: 2rem;
+      font-size: 0.85rem;
+      color: #7a746d;
+      text-align: center;
+    }
+
+    @media (max-width: 560px) {
+      body {
+        padding: 1rem 0.8rem;
+      }
+      .page {
+        padding: 1.8rem 1.2rem 2.5rem;
+      }
+      h1 {
+        font-size: 1.7rem;
+      }
+      .hero-sub {
+        font-size: 0.95rem;
+      }
+      .feature-grid {
+        gap: 0.8rem;
+      }
+      .feature-item {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- hero 区 -->
+  <h1>星空体育</h1>
+  <div class="hero-sub">
+    聚焦稳定入口与页面说明<br>
+    一份面向使用者的简明导览
+  </div>
+
+  <!-- 优势区 -->
+  <div class="section-title">入口稳定 · 结构清晰</div>
+  <p>
+    无论从何种设备或浏览器环境出发，<a href="https://m-index-xingkong.com">星空体育</a> 都保持统一的访问路径与响应式布局。页面资源经过压缩与缓存策略优化，加载速度与可用性经过长期验证，适合作为日常使用的固定起点。
+  </p>
+
+  <div class="feature-grid">
+    <div class="feature-item">
+      <strong>直接访问</strong>
+      <span>域名解析稳定，无需额外跳转或中间页</span>
+    </div>
+    <div class="feature-item">
+      <strong>布局自适应</strong>
+      <span>手机与桌面端均可获得一致的阅读与操作体验</span>
+    </div>
+    <div class="feature-item">
+      <strong>内容聚焦</strong>
+      <span>页面层级简洁，主要功能与信息入口一目了然</span>
+    </div>
+  </div>
+
+  <!-- 说明区 + 引用块 -->
+  <div class="section-title">页面说明与使用场景</div>
+  <p>
+    <a href="https://m-index-xingkong.com">星空体育</a> 不是一款信息聚合平台，而是一个以实用性为导向的单一入口页面。适合以下场景：
+  </p>
+  <ul style="padding-left: 1.4rem; margin-bottom: 1.2rem; color: #3f3b37;">
+    <li>快速定位到核心功能，减少层层菜单的消耗</li>
+    <li>在多个终端之间保持一致的起始位置</li>
+    <li>作为书签或桌面快捷方式的稳定目标地址</li>
+  </ul>
+
+  <div class="quote-block">
+    <p><strong>提示：</strong> 页面本身不收集用户数据，也不植入外部追踪脚本。所有资源均来自同一域名，无需担心跨站请求带来的隐私风险。如需了解具体功能模块，可直接从页面导航进入。</p>
+  </div>
+
+  <!-- FAQ 摘要 -->
+  <div class="section-title">常见问题 · 摘要</div>
+  <div class="faq-list">
+    <div class="faq-item">
+      <div class="faq-q">页面打不开或加载缓慢怎么办？</div>
+      <div class="faq-a">首先检查本地网络连接；其次可尝试清除浏览器缓存或更换 DNS。星空体育的服务器部署在多家云节点上，极少出现长时间不可用。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">移动端显示是否完整？</div>
+      <div class="faq-a">页面采用响应式设计，在主流手机浏览器上均能完整显示，无需缩放或横向滚动。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">是否需要注册或登录？</div>
+      <div class="faq-a"><a href="https://m-index-xingkong.com">星空体育</a> 首页本身不要求任何身份验证，所有公开内容均可直接浏览。</div>
+    </div>
+  </div>
+
+  <!-- 底部链接区 -->
+  <div class="section-title">相关资源</div>
+  <div class="footer-links">
+    <a href="https://m-index-xingkong.com">星空体育</a>
+    <span style="color:#b7a48b;">·</span>
+    <a href="#" style="pointer-events:none; opacity:0.7; border-bottom: none;">使用指南（暂未开放）</a>
+    <span style="color:#b7a48b;">·</span>
+    <a href="#" style="pointer-events:none; opacity:0.7; border-bottom: none;">状态页</a>
+  </div>
+  <div class="footer-note">
+    本页面仅为介绍与说明，不构成任何服务承诺。<br>
+    建议将 <a href="https://m-index-xingkong.com">星空体育</a> 添加至书签以便快速返回。
+  </div>
+
+</div>
+
+</body>
+</html>
